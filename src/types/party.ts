@@ -1,12 +1,12 @@
 export type Party = {
     id: number;
     name: string;
-    company: string;
+    company?: string;
     email: string;
-    phone_number: string | null;
+    phone_number?: string;
     sign_method: "bankid" | "email";
-    signed_at: Date | null;
-    signed_by_name: string | null;
-    signed_by_id: string | null;
-    external_id: string | null;
+    signed_at?: Date;
+    signed_by_name?: string;
+    signed_by_id?: string;
+    external_id?: string;
 }
