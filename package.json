@@ -1,15 +1,15 @@
 {
   "name": "inleed-docsign-ts-client",
   "description": "A client for the Inleed Docsign API",
-  "author": "<YOUR_NAME>",
+  "author": "Jonatan Hallenberg",
   "license": "MIT",
-  "homepage": "<YOUR_SITE_URL>",
+  "homepage": "https://www.sprinto.se",
   "repository": {
     "type": "git",
-    "url": "https://github.com/<YOUR_USER_NAME>/inleed-docsign-ts-client.git"
+    "url": "https://github.com/jonatan.hallenberg/inleed-docsign-ts-client.git"
   },
   "bugs": {
-    "url": "https://github.com/<YOUR_USER_NAME>/inleed-docsign-ts-client/issues"
+    "url": "https://github.com/jonatan.hallenberg/inleed-docsign-ts-client/issues"
   },
   "keywords": [
     "docsign",
