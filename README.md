@@ -1,9 +1,9 @@
-# inleed-docsign-ts-client
+# docsign-ts-client
 This is a TypeScript client for the Inleed Docsign API.
 
 Example:
 ```typescript
-import { getDocuments } from 'inleed-docsign-ts-client';
+import { getDocuments } from 'docsign-ts-client';
 
 const documents = await getDocuments(process.env.INLEED_API_KEY, 'pending')
 ```
