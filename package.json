@@ -11,8 +11,14 @@
   "bugs": {
     "url": "https://github.com/<YOUR_USER_NAME>/inleed-docsign-ts-client/issues"
   },
-  "keywords": [ "docsign", "inleed", "api", "client", "typescript" ],
-  "version": "0.0.0",
+  "keywords": [
+    "docsign",
+    "inleed",
+    "api",
+    "client",
+    "typescript"
+  ],
+  "version": "0.1.0",
   "type": "module",
   "files": [
     "dist"
