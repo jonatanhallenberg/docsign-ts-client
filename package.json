@@ -1,15 +1,15 @@
 {
-  "name": "inleed-docsign-ts-client",
+  "name": "docsign-ts-client",
   "description": "A client for the Inleed Docsign API",
   "author": "Jonatan Hallenberg",
   "license": "MIT",
   "homepage": "https://www.sprinto.se",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jonatan.hallenberg/inleed-docsign-ts-client.git"
+    "url": "https://github.com/jonatan.hallenberg/docsign-ts-client.git"
   },
   "bugs": {
-    "url": "https://github.com/jonatan.hallenberg/inleed-docsign-ts-client/issues"
+    "url": "https://github.com/jonatan.hallenberg/docsign-ts-client/issues"
   },
   "keywords": [
     "docsign",
@@ -23,13 +23,13 @@
   "files": [
     "dist"
   ],
-  "main": "./dist/inleed-docsign-ts-client.umd.cjs",
-  "module": "./dist/inleed-docsign-ts-client.js",
+  "main": "./dist/docsign-ts-client.umd.cjs",
+  "module": "./dist/docsign-ts-client.js",
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
-      "import": "./dist/inleed-docsign-ts-client.js",
-      "require": "./dist/inleed-docsign-ts-client.umd.cjs"
+      "import": "./dist/docsign-ts-client.js",
+      "require": "./dist/docsign-ts-client.umd.cjs"
     }
   },
   "scripts": {

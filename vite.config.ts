@@ -10,8 +10,8 @@ export default defineConfig({
   build: {
     lib: {
       entry: resolve(__dirname, 'src/index.ts'),
-      name: 'inleed-docsign-ts-client',
-      fileName: 'inleed-docsign-ts-client',
+      name: 'docsign-ts-client',
+      fileName: 'docsign-ts-client',
     },
   },
   plugins: [dts()],
