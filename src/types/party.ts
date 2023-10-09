@@ -1,5 +1,5 @@
 export type Party = {
-    id: number;
+    id?: number;
     name: string;
     company?: string;
     email: string;
