@@ -1,0 +1,9 @@
+POST https://docsign.se/api/parties?api_key=7dd26b65-e936-4637-8374-5a8497027975
+Content-Type: application/json
+
+{
+    "name":"Albin Daleby",
+    "email":"albin.daleby@sprinto.se",
+    "phone_number":"0",
+    "sign_method":"bankid"
+}
