@@ -4,8 +4,8 @@ type BaseResponse = {
 }
 
 export type PostPartyResponse = BaseResponse & {
-    "party_id": string;
+    "party_id": number;
 }
 export type PostDocumentResponse = BaseResponse & {
-    "document_id": string;
+    "document_id": number;
 }

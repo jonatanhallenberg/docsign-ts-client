@@ -23,7 +23,7 @@ export type CreateDocumentRequest = {
     send_notifications?: boolean;
     callback_url?: string;
     callback_sign_url?: string;
-    parties: string[]; // party_id
+    parties: number[]; // party_ids
     debug?: boolean;
     attachments?: DocumentAttachment[];
 }

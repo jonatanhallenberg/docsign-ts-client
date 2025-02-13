@@ -9,4 +9,5 @@ export type Party = {
     signed_by_name?: string;
     signed_by_id?: string;
     external_id?: string;
+    debug?: boolean;
 }
