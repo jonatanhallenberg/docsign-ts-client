@@ -1,5 +1,11 @@
-export type PostPartyResponse = {
+type BaseResponse = {
     success: boolean;
     message: string;
-    "party_id": number;
+}
+
+export type PostPartyResponse = BaseResponse & {
+    "party_id": string;
+}
+export type PostDocumentResponse = BaseResponse & {
+    "document_id": string;
 }
