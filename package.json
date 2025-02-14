@@ -35,7 +35,9 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "test": "vitest"
+    "test": "vitest",
+    "prepublishOnly": "npm run build",
+    "release": "npm run test && npm version patch && npm publish"
   },
   "devDependencies": {
     "@types/jest": "^29.5.5",
