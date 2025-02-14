@@ -1,5 +1,5 @@
 import { CreateDocumentRequest } from "./types/document";
-import { PostDocumentResponse } from "./types/postPartyResponse";
+import { PostDocumentResponse } from "./types/postResponse";
 
 export const postDocument = async (apiKey: string, document: CreateDocumentRequest, baseUrl: string = "https://docsign.se/api/"): Promise<PostDocumentResponse> => {
     const requestBody = {

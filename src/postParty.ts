@@ -1,5 +1,5 @@
 import { Party } from "./types/party";
-import { PostPartyResponse } from "./types/postPartyResponse";
+import { PostPartyResponse } from "./types/postResponse";
 
 export const postParty = async (apiKey: string, party: Party, baseUrl: string = "https://docsign.se/api/",): Promise<PostPartyResponse> => {
     const requestBody = {
